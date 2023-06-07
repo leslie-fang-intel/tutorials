@@ -82,6 +82,8 @@ quantization 2.0 with quantizer could look like this:
                                 |
             Executorch, or Inductor, or <Other Backends>
 
+Note: ``prepare_pt2e_quantizer`` will be updated to ``prepare_pt2e`` soon.
+
 An existing quantizer object defined for QNNPack/XNNPack is located in
 `QNNPackQuantizer <https://github.com/pytorch/pytorch/blob/main/torch/ao/quantization/_pt2e/quantizer/qnnpack_quantizer.py>`__.
 Taking QNNPackQuantizer as an example, the overall Quantization 2.0 flow could be:
